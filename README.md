@@ -2,7 +2,7 @@
 
 <h4 align="center">Email Newsletter Application</h4>
 
-<h3 align="center"><img width="700" alt="demo" src="logo.png" /></h3>
+<h3 align="center"><img width="700" alt="demo" src="/images/logo.png" /></h3>
 
 
 ---
