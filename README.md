@@ -1,10 +1,9 @@
-<h1 align="center">nextMotion</h1>
+<h1 align="center">Email-Newsletter</h1>
 
-<h4 align="center">An open-source portfolio template</h4>
+<h4 align="center">Email Newsletter Application</h4>
 
-<h3 align="center"><img width="700" alt="demo" src="nextMotion.png" /></h3>
+<h3 align="center"><img width="700" alt="demo" src="logo.png" /></h3>
 
-[Live Demo](https://next-motion-five.vercel.app/)
 
 ---
 
@@ -21,15 +20,15 @@ To run this project locally, follow the steps below:
 - Clone the forked repository to your local machine:
 
   ```bash
-  git clone https://github.com/Zetaii/nextportfolio2.git
+  git clone https://github.com/Zetaii/email-newsletter.git
   ```
 
 ### 2. Install Dependencies
 
-- Install the necessary dependencies using `pnpm`:
+- Install the necessary dependencies using `npm`:
 
   ```bash
-  pnpm install
+  npm install
   ```
 
 ### 3. Set Up Environment Variables
@@ -38,8 +37,8 @@ To run this project locally, follow the steps below:
 
 - You only need two environment variables (which will be used for nodemailer):
 
-  - `MY_EMAIL`
-  - `APP_PASSWORD`
+  - `EMAIL_USER`
+  - `EMAIL_PASS`
 
 - This project is using `gmail` for the nodemailer transport service, so you'll want to create an app password [here](https://myaccount.google.com/apppasswords). This allows your application (this portfolio) to send emails using your Gmail account.
 
@@ -48,7 +47,7 @@ To run this project locally, follow the steps below:
 - Start the development server:
 
   ```bash
-  pnpm dev
+  npm run dev
   ```
 
 - Your application should now be running on `http://localhost:3000`.
